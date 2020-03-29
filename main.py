@@ -3,6 +3,8 @@ from static import constants as cst
 import dynalist
 
 
-dl = dynalist.Dynalist(token=cst.dynalist_token, file_id='4QqbACmY8arqQeSa8bt_TZqP')
+your_file_id = "your_file_id"
+
+dl = dynalist.Dynalist(token=cst.dynalist_token, file_id=your_file_id)
 test = dl.get_node("root")
 print(test)
