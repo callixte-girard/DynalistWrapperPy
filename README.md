@@ -19,4 +19,4 @@ But contrary to it (which is almost docless), this little code gives you a templ
         - Go to Dynalist in your web browser and go to the page you want to get the id.
         - Simply copy the last part of the URL (like in the screenshot).
 - Launch the file `main.py` with Python : `python main.py` (here you may as well use `python3` instead of `python`.)
-- It should give you a JSON file containing your upper-level documents. If it is the case, congrats, it's working ;)
+- It should give you some JSON containing the document whose id you passed it. If it is the case, congrats, it's working ;)
