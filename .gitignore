@@ -1,0 +1,18 @@
+# ignoring IDE-specific files (must import if just opening doesn't work in IntelliJ)
+.idea
+.vscode
+*.iml
+.dist
+# test files
+test
+# private files
+data_input
+data_output
+data_saved
+# macOS-specific
+.DS_Store
+# python-specific
+**__pycache__*
+venv
+# node-specific
+node_modules
